@@ -1,6 +1,6 @@
 import { RulerInterface, RulerProps } from "./types";
 
-export const PROPERTIES: Array<keyof RulerProps> = [
+export var PROPERTIES: Array<keyof RulerProps> = [
     "type",
     "width",
     "height",

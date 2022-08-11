@@ -4,7 +4,7 @@ import { RulerInterface, RulerProps } from "./types";
 import { convertUnitSize } from "@daybrush/utils";
 
 export default class Ruler extends React.PureComponent<RulerProps> implements RulerInterface {
-    public static defaultProps: RulerProps = {
+    public defaultProps: RulerProps = {
         type: "horizontal",
         zoom: 1,
         width: 0,
